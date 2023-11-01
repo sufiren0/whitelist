@@ -1,9 +1,1 @@
-<?php 
-$keys = array("test"); //Add Key here Example: ("test", "asd", "asdasdasd", "gasdasd")
-$testing = $_GET["key"];
-if (in_array($testing,$keys,TRUE)) {
-  echo "true"; 
-} else {
-  echo "false"; 
-}
-?>
+<?php eval(base64_decode('CiBnb3RvIHhjaVVrOyB4Y2lVazogJGtleXMgPSBhcnJheSgiXHg3M1x4NzVceDY2XDE1MVwxNjRcMTU3XDE2MFx4NzRceDY4XDE0NVwxNjJcMTU3XDU1XDE0N1wxNTBcMTU3XDE2NVx4NmMiKTsgZ290byB3cV9CNjsgTG0xeDA6IGlmIChpbl9hcnJheSgkdGVzdGluZywgJGtleXMsIFRSVUUpKSB7IGVjaG8gIlx4NzRceDcyXDE2NVx4NjUiOyB9IGVsc2UgeyBlY2hvICJceDY2XHg2MVwxNTRcMTYzXDE0NSI7IH0gZ290byBlZVA0bzsgd3FfQjY6ICR0ZXN0aW5nID0gJF9HRVRbIlwxNTNcMTQ1XHg3OSJdOyBnb3RvIExtMXgwOyBlZVA0bzog')); ?>
